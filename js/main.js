@@ -75,5 +75,23 @@ document.addEventListener("DOMContentLoaded", function() {
         }
     });
 
-
+    document.addEventListener("DOMContentLoaded", () => {
+        const burbujasContainer = document.querySelector('.burbujas');
+        const numBurbujasAnimadas = 50;
+        const numBurbujasEstaticas = 50;
+    
+        // Función para generar un número aleatorio entre un rango
+        function getRandom(min, max) {
+            return Math.random() * (max - min) + min;
+        }
+    
+        // Crear burbujas estáticas
+        for (let i = 0; i < numBurbujasEstaticas; i++) {
+            const burbujaEstatica = document.createElement('div');
+            burbujaEstatica.classList.add('burbuja-estatica');
+            burbujaEstatica.style.left = `${getRandom(0, 100)}%`;
+            burbujaEstatica.style.top = `${getRandom(0, 100)}%`;
+            burbujasContainer.appendChild(burbujaEstatica);
+        }
+    });
     
