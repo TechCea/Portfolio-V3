@@ -33,8 +33,8 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 
 
-    var images = ["/IMG/Picture1.png","/IMG/Picture2.png","/IMG/Picture2.2.png","/IMG/Picture3.png","/IMG/Picture4.png",
-    "/IMG/Picture5.png","/IMG/Picture6.png","/IMG/Picture7.png","/IMG/Picture8.png","/IMG/Picture9.png"];
+    var images = ["img/Picture1.png","img/Picture2.png","img/Picture2.2.png","img/Picture3.png","img/Picture4.png",
+    "img/Picture5.png","img/Picture6.png","img/Picture7.png","img/Picture8.png","img/Picture9.png"];
     var currentIndex = 0;
     var timer;
     
