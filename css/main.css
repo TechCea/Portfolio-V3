@@ -11,12 +11,14 @@
 }
 :root {
     --white: #FFFFFF;
-    --bluewhite: #676f9d;
-    --blue: #424769;
+    --dark: #171C2D;
+    --bluewhite: #33c1fd;
+    --blue: #0d2b5e;
+    --bluetwo: #2735ff;
     --bluedark: #2c335c;
-    --orange: #f9b17a;
+    --lightblue: #09aaee;
     --brown: #411109;
-    --orangew: #f2631d;
+    --lightblueW: #95deff;
     --gray: #ccc;
 }
 body{
@@ -36,11 +38,11 @@ body::-webkit-scrollbar{
     width: 10px;
 }
 body::-webkit-scrollbar-thumb{
-    background: var(--orangew);
+    background: var(--bluewhite);
     border-radius: 50px;
 }
 body::-webkit-scrollbar-thumb:hover{
-    background: var(--orange);
+    background: var(--bluetwo);
 }
 .shape{
     width: 550px;
@@ -59,7 +61,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    z-index: 1;
+    z-index: 3;
 }
 .logo{
     position: relative;
@@ -79,7 +81,7 @@ header{
     margin-left: 35px;
 }
 .navbar a{
-    color: var(--orangew);
+    color: var(--bluewhite);
     padding: 4px;
     transition: .3s;
     opacity: 0;
@@ -155,7 +157,7 @@ header{
 .home-content h1{
     font-size: 56px;
     font-weight: 700;
-    color: var(--orangew);
+    color: var(--bluewhite);
     opacity: 0;
     animation: SlideRight 1s ease forwards;
     animation-delay: 1s;
@@ -173,7 +175,7 @@ header{
     padding: 90px;
 }
 .home-content h3 span{
-    color: var(--orange);
+    color: var(--bluetwo);
 }
 .home-content p{
     font-size: 20px;
@@ -189,11 +191,11 @@ header{
     width: 40px;
     height: 40px;
     background: transparent;
-    border: 2px solid var(--orange);
+    border: 2px solid var(--lightblueW);
     border-radius: 50%;
     font-size: 22px;
-    background: var(--brown);
-    color: var(--orange);
+    background: var(--dark);
+    color: var(--lightblueW);
     text-decoration: none;
     transition: .5s ease;
     opacity: 0;
@@ -207,15 +209,15 @@ header{
     width: 150px;
     margin-right: 50PX;
     background: transparent;
-    border: 2px solid var(--orange);
-    background: var(--brown);
+    border: 2px solid var(--lightblueW);
+    background: var(--dark);
     border-radius: 40px;
     font-size: 16px;
     transition: .5s ease;
     opacity: 0;
     animation: SlideLeft 1s ease forwards;
     animation-delay: calc(.2s * var(--i));
-    color: var(--orange);
+    color: var(--lightblueW);
     letter-spacing: 1px;
     text-decoration: none;
     font-weight: 600;
@@ -226,32 +228,33 @@ header{
     left: 20px;
     bottom: 30px;
     background: transparent;
-    border: 2px solid var(--orange);
+    border: 2px solid var(--lightblueW);
     border-radius: 40px;
     font-size: 16px;
+    background: var(--dark);
     transition: .5s ease;
     opacity: 0;
     animation: SlideLeft 1s ease forwards;
     animation-delay: calc(.2s * var(--i));
-    color: var(--orange);
+    color: var(--lightblueW);
     letter-spacing: 1px;
     text-decoration: none;
     font-weight: 600;
 }
 .btn-box:hover{
-    background: var(--orangew);
-    color: var(--brown);
-    box-shadow: 0 0 5px var(--orange), 0 0 25px var(--orange);
+    background: var(--lightblue);
+    color: var(--white);
+    box-shadow: 0 0 5px var(--lightblueW), 0 0 15px var(--lightblueW);
 }
 .btn-box2:hover{
-    background: var(--orange);
-    color: var(--brown);
-    box-shadow: 0 0 20px var(--orange);
+    background: var(--lightblue);
+    color: var(--white);
+    box-shadow: 0 0 10px var(--lightblueW);
 }
 .home-sci a:hover {
-    background: var(--orange);
-    color: var(--brown);
-    box-shadow: 0 0 20px var(--orange);  
+    background: var(--lightblue);
+    color: var(--white);
+    box-shadow: 0 0 10px var(--lightblueW);  
 }
 .image-container {
     margin-left: 20px;
@@ -263,6 +266,7 @@ header{
     animation: SlideLeft 1s ease forwards;
     animation-delay: 1.5s;
     transition: opacity 0.5s ease;
+    
     z-index: 1;
 }
 .Foto{
@@ -281,7 +285,7 @@ section{
     margin-bottom: 30px ;
 }
 .Tittle span{
-    color: var(--orangew);
+    color: var(--bluewhite);
 }
 .container2{
     width: 100%;
@@ -301,7 +305,7 @@ section{
 .wrapper div{
     border-radius: 10px;
     cursor: pointer;
-    background: var(--blue);
+    background: var(--bluetwo);
     background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
@@ -314,7 +318,7 @@ section{
     border-radius: 10px;
 }
 .wrapper div:hover {
-    box-shadow: 0 0 0 2px var(--orange),0 8px 32px 0 rgba(0, 0, 0, 0.37); /* Efecto de sombra en el borde */
+    box-shadow: 0 0 0 2px var(--bluewhite),0 8px 32px 0 rgba(0, 0, 0, 0.37); /* Efecto de sombra en el borde */
     transition: box-shadow 0.3s ease; /* Transición suave */
 }
 .grid1{
@@ -354,13 +358,12 @@ section{
     visibility: visible; /* Agrega esta regla para mostrar el popup */
 }
 .popup-content{
-    background: var(--bluewhite);
     width: 100%;
     height: 100%;
     padding: 20px;
     border-radius: 10px;
     opacity: 1;
-    background: linear-gradient(100deg, var(--blue) 60%, var(--bluewhite));
+    background: var(--dark);
     animation: fadeOutContent 1s ease-out forwards;
     position: relative;
     backdrop-filter: blur(10px);
@@ -372,9 +375,10 @@ section{
     padding: 20px;
 }
 .pop-content h5 {
-    font-size: 26px;
+    font-size: 36px;
+    font-weight: 700;
     margin-bottom: 10px;
-    color: var(--orange);
+    color: var(--bluetwo);
     text-align: center;
 }
 .pop-content p {
@@ -385,10 +389,10 @@ section{
 }
 .link-container {
     margin-top: 5px;
-    width: 300px;
+    width: 200px;
     height: 40px;
-    margin-left: 220px;
-    background-color: var(--orange); 
+    margin-left: 270px;
+    background-color: var(--bluewhite); 
     border-radius: 10px; 
     display: flex; 
     justify-content: space-around; 
@@ -399,12 +403,12 @@ section{
     text-decoration: none; /* Quitar subrayado del texto */
 }
 .link-container a i:hover{
-    color: var(--orangew);
+    color: var(--brown);
     transform: translateY(-5px);
 }
 .link-container a i {
-    color: var(--brown);
-    font-size: 29px;
+    color: var(--dark);
+    font-size: 32px;
 }
 .resources {
     display: flex;
@@ -454,7 +458,7 @@ section{
     padding-left: 10px;
     padding-right:10px;
     color: var(--white); 
-    background-color: var(--orangew); 
+    background-color: var(--bluetwo); 
     border: none; 
     border-radius: 20%; 
     cursor: pointer;
@@ -570,7 +574,7 @@ section{
     text-align: center;
 }
 .main-text h2 span{
-    color: var(--orangew);
+    color: var(--bluewhite);
 }
 .portfolio-content{
     width: 100%;
@@ -612,7 +616,7 @@ section{
     box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
 }
 .layer h5{
-    color: var(--orange);
+    color: var(--lightblueW);
     font-size: 20px;
     font-weight: 600;
     margin-bottom: 15px;
@@ -624,7 +628,7 @@ section{
 }
 .layer i{
     margin-left: 10px;
-    background: var(--orange);
+    background: var(--lightblueW);
     margin-top: 20px;
     font-size: 20px;
     width: 35px;
@@ -635,8 +639,8 @@ section{
     border-radius: 50%;
 }
 .layer i:hover{
-    background: var(--orangew);
-    box-shadow: 0 0 5px var(--orangew), 0 0 25px var(--orangew), 0 0 50px var(--orangew), 0 0 100px var(--orangew), 0 0 200px var(--orangew);
+    background: var(--lightblueW);
+    box-shadow: 0 0 5px var(--lightblueW), 0 0 25px var(--lightblueW);
     transform: translateY(-5px);
 }
 .resource{
@@ -668,7 +672,7 @@ section{
     height: 100%;
 }
 .certi{
-    color: var(--orangew);
+    color: var(--bluewhite);
     font-size: 60px;
     font-weight: 100;
     line-height: 1;
@@ -689,7 +693,7 @@ section{
     margin-bottom: 20px;
     padding: 10px;
     border-radius: 8px;
-    background: var(--blue);
+    background: var(--bluedark);
 
 }
 .acordion li label{
@@ -719,24 +723,23 @@ input[type="radio"]{
     height: 40px;
     background: transparent;
     font-size: 72px;
-    color: var(--orangew);
+    color: red;
     text-decoration: none;
-    transition: .5s ease;
-    opacity: 0;
+    transition: .1s ease;
     animation: SlideLeft 1s ease forwards;
     animation-delay: calc(.2s * var(--i));
     margin: 30px 20px 30px 0;
     cursor: pointer;
 }
 .accordion-label{
-    color: var(--orange);
+    color: var(--lightblueW);
 }
 .acordion .content{
     display: flex; /* Nueva propiedad */
     align-items: center; /* Nueva propiedad */
     justify-content: space-between;
     color: var(--white);
-    background: var(--bluedark);
+    background: var(--dark);
     padding: 0 10px;
     line-height: 26px;
     max-height: 0;
@@ -751,11 +754,12 @@ input[type="radio"]{
 .acordion .content .left h4{
     text-align: center;
     margin-left: 10px;
+    color: var(--dark);
     width: 100px;
     padding: 5px;
     border-radius: 8px;
-    font-weight: 500;
-    background: var(--bluewhite);
+    font-weight: 900;
+    background: linear-gradient(180deg, var(--white), var(--lightblue));
 }
 .acordion .content .left h5 span{
     color: black;
@@ -782,7 +786,7 @@ input[type="radio"]{
     right: 90px;
 }
 .acordion .content .right a:hover{
-    color: var(--orange);
+    color: rgb(243, 76, 76);
 }
 .acordion .content .right h5{
     padding: 5px;
@@ -791,7 +795,7 @@ input[type="radio"]{
     color: var(--gray);
 }
 .acordion .content .right h5 span{
-    color: var(--orange);
+    color: var(--bluewhite);
 }
 .acordion input[type="radio"]:checked + label + .content{
     max-height: 300px;
@@ -806,7 +810,6 @@ input[type="radio"]{
     height: 5px;
     text-align: center;
     color: var(--white);
-    background: var(--orange);
 }
 .heading1 span{
     color: #2ef8bb;
@@ -833,10 +836,10 @@ input[type="radio"]{
     max-height: 450px; /* Altura máxima */
     border-radius: 50%;
     opacity: 0;
-    border: 5px solid var(--orange);
+    border: 5px solid var(--lightblueW);
     animation: SlideRight 1s ease forwards;
     animation-delay: 1.5s;
-    box-shadow: 0 0 5px var(--orange), 0 0 25px var(--orange);
+    box-shadow: 0 0 5px var(--lightblue), 0 0 25px var(--lightblueW);
 }
 .about-text h2{
     text-align: center;
@@ -848,13 +851,13 @@ input[type="radio"]{
     animation-delay: .7s;
 }
 .about-text h2 span{
-    color: var(--orangew);
+    color: var(--bluewhite);
 }
 .about-text h4{
     padding-left: 1rem;
     font-size: 29px;
     font-weight: 500;
-    color: var(--orange);
+    color: var(--lightblueW);
     line-height: 1.7;
     margin: 15px 0 30px;
     opacity: 0;
@@ -885,11 +888,10 @@ input[type="radio"]{
     margin-bottom: 25px;
 }
 .contactme span{
-    color: var(--orangew);
+    color: var(--bluewhite);
 }
 .contact{
     width: 100%;
-    z-index: 5;
 }
 .contact-container{
     height: 100%;
@@ -908,7 +910,7 @@ input[type="radio"]{
 }
 .container-left-tittle h2{
     font-weight: 600;
-    color: var(--orange);
+    color: var(--lightblueW);
     font-size: 40px;
     margin-bottom: 5px;
 }
@@ -916,7 +918,7 @@ input[type="radio"]{
     border: none;
     width: 235px;
     height: 5px;
-    background: var(--orange);
+    background: var(--lightblueW);
     border-radius: 10px;
     margin-bottom: 25px;
 }
@@ -935,7 +937,7 @@ input[type="radio"]{
     padding-top: 15px;
 }
 .contact-inputs:focus{
-    box-shadow: 0 0 5px var(--orange), 0 0 25px var(--orange);
+    box-shadow: 0 0 10px var(--bluewhite);
 }
 .contact-inputs::placeholder{
     color: #0c192c;
@@ -948,7 +950,7 @@ input[type="radio"]{
     border: none;
     border-radius: 20px;
     color: #000000;
-    background: var(--orange);
+    background: var(--lightblueW);
     cursor: pointer;
 }
 .contact-left button i{
@@ -957,7 +959,7 @@ input[type="radio"]{
 }
 .contact-left button:hover{
     transform: translateY(-5px);
-    box-shadow: 0 0 5px var(--orange), 0 0 25px var(--orange);
+    box-shadow: 0 0 5px var(--lightblueW), 0 0 15px var(--lightblueW);
 }
 .contact-right img{
     margin-left: 30px;
@@ -977,7 +979,7 @@ input[type="radio"]{
     font-size: 18px;
     padding: 20px;
     font-weight: 500;
-    color: var(--orange);
+    color: var(--bluewhite);
 }
 .home-sci1 a{
     position: relative;
@@ -987,10 +989,11 @@ input[type="radio"]{
     width: 40px;
     height: 40px;
     background: transparent;
-    border: 2px solid var(--orange);
+    border: 2px solid var(--lightblueW);
     border-radius: 50%;
     font-size: 22px;
-    color: var(--orange);
+    background: var(--dark);
+    color: var(--lightblue);
     text-decoration: none;
     transition: .5s ease;
     opacity: 0;
@@ -1000,9 +1003,9 @@ input[type="radio"]{
     cursor: pointer;
 }
 .home-sci1 a:hover {
-    background: var(--orange);
-    color: var(--bluedark);
-    box-shadow: 0 0 20px var(--orange);  
+    background: var(--lightblue);
+    color: var(--white);
+    box-shadow: 0 0 10px var(--lightblueW); 
 }
 footer {
     position: absolute;
@@ -1567,7 +1570,6 @@ footer {
     16px 1650px #fff, 1021px 1075px #fff, 723px 424px #fff, 1175px 41px #fff,
     494px 1957px #fff, 1296px 431px #fff, 175px 1507px #fff, 831px 121px #fff,
     498px 1947px #fff, 617px 880px #fff, 240px 403px #fff;
-    z-index: 0;
 }
 
 #stars3:after {
@@ -1603,7 +1605,6 @@ footer {
     16px 1650px #fff, 1021px 1075px #fff, 723px 424px #fff, 1175px 41px #fff,
     494px 1957px #fff, 1296px 431px #fff, 175px 1507px #fff, 831px 121px #fff,
     498px 1947px #fff, 617px 880px #fff, 240px 403px #fff;
-    z-index: 0;
 }
 
 
