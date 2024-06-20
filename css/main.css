@@ -669,8 +669,7 @@ section{
 .row:hover .layer{
     padding: 10px;
     height: 100%;
-}
-.certi{
+}.certi {
     color: var(--bluewhite);
     font-size: 60px;
     font-weight: 100;
@@ -678,14 +677,14 @@ section{
     text-align: center;
     margin-bottom: 35px;
 }
-.certi span{
-    color: var(--white);  
+.certi span {
+    color: var(--white);
 }
-.acordion{
-    width:100%;
+.acordion {
+    width: 100%;
     padding: 60px auto;
 }
-.acordion li{
+.acordion li {
     list-style: none;
     width: 100%;
     margin-top: 20px;
@@ -693,27 +692,25 @@ section{
     padding: 10px;
     border-radius: 8px;
     background: var(--bluedark);
-
 }
-.acordion li label{
+.acordion li label {
     display: flex;
     align-items: center;
     padding: 10px;
     font-size: 18px;
     font-weight: 500;
     cursor: pointer;
-    
 }
-label::before{
+label::before {
     content: "+";
     margin-right: 10px;
     font-size: 20px;
     font-weight: 600;
 }
-input[type="radio"]{
+input[type="checkbox"] {
     display: none;
 }
-.content a{
+.content a {
     position: relative;
     display: inline-flex;
     justify-content: center;
@@ -730,12 +727,12 @@ input[type="radio"]{
     margin: 30px 20px 30px 0;
     cursor: pointer;
 }
-.accordion-label{
+.accordion-label {
     color: var(--lightblueW);
 }
-.acordion .content{
-    display: flex; /* Nueva propiedad */
-    align-items: center; /* Nueva propiedad */
+.acordion .content {
+    display: flex;
+    align-items: center;
     justify-content: space-between;
     color: var(--white);
     background: var(--dark);
@@ -748,9 +745,9 @@ input[type="radio"]{
     transition: max-height 0.5s, padding 0.5s;
 }
 .acordion .content .left {
-    width: 600px; /* Ancho del contenido a la izquierda */
+    width: 600px;
 }
-.acordion .content .left h4{
+.acordion .content .left h4 {
     text-align: center;
     margin-left: 10px;
     color: var(--dark);
@@ -760,47 +757,47 @@ input[type="radio"]{
     font-weight: 900;
     background: linear-gradient(180deg, var(--white), var(--lightblue));
 }
-.acordion .content .left h5 span{
+.acordion .content .left h5 span {
     color: black;
     font-weight: 800;
 }
-.acordion .content .left h6{
+.acordion .content .left h6 {
     padding: 0px 10px 5px 10px;
     margin-bottom: 15px;
     font-size: 17px;
     font-weight: 400;
     color: var(--gray);
 }
-.acordion .content .left h5{
+.acordion .content .left h5 {
     padding: 0px 10px 10px 10px;
     font-size: 20px;
     font-weight: 400;
 }
 .acordion .content .right {
-    width: 300px; /* Ancho del icono a la derecha */
-    text-align: right; /* Alineación del icono a la derecha */
+    width: 300px;
+    text-align: right;
 }
-.acordion .content .right a{
+.acordion .content .right a {
     position: relative;
     right: 90px;
 }
-.acordion .content .right a:hover{
+.acordion .content .right a:hover {
     color: rgb(243, 76, 76);
 }
-.acordion .content .right h5{
+.acordion .content .right h5 {
     padding: 5px;
     font-size: 18px;
     font-weight: 500;
     color: var(--gray);
 }
-.acordion .content .right h5 span{
+.acordion .content .right h5 span {
     color: var(--bluewhite);
 }
-.acordion input[type="radio"]:checked + label + .content{
+.acordion input[type="checkbox"]:checked + label + .content {
     max-height: 300px;
     padding: 5px 10px 5px;
 }
-.acordion input[type="radio"]:checked + label::before{
+.acordion input[type="checkbox"]:checked + label::before {
     content: "−";
 }
 
