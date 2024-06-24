@@ -392,7 +392,7 @@ header {
 }
 .Foto{
     margin-left: 15px;
-    width: 500px;
+    width: 510px;
     height: 430px;
 }
 section{
@@ -876,7 +876,7 @@ input[type="checkbox"] {
     transition: max-height 0.5s, padding 0.5s;
 }
 .acordion .content .left {
-    width: 600px;
+    width: 500px;
 }
 .acordion .content .left h4 {
     text-align: center;
