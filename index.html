@@ -10,18 +10,31 @@
     <title>Portfolio</title>
 </head>
 <body>
-    <header class="header glass">
-        <a href="" class="logo">Portfolio</a>
-
-        <nav class="navbar">
-            <a href="#home" style="--i:1" class="active">Home</a>
-            <a href="#Skill" style="--i:2">Skills</a>
-            <a href="#about" style="--i:3">About</a>
-            <a href="#" style="--i:4">Portfolio</a>
-            <a href="#" style="--i:5">Education</a>
-            <a href="#" style="--i:6">Contact</a>
-        </nav>
-        
+    <header>
+        <nav class="navbar glass">
+            <div class="navbar-item" data-label="Perfil">
+                <a href=""><i class='bx bxs-home'></i></a>
+            </div>
+            <div class="navbar-item" data-label="Projects">
+                <a href=""><i class='bx bx-cube-alt'></i></a>
+            </div>
+            <div class="navbar-item" data-label="Capas">
+                <a href=""><i class='bx bx-merge'></i></a>
+            </div>
+            <div class="navbar-item" data-label="Carrito">
+                <a href=""><i class='bx bxs-folder-open'></i></a>
+            </div>
+            <div class="navbar-item" data-label="Modo Noche">
+                <a href=""><i class='bx bxs-user'></i></a>
+            </div>
+            <div class="navbar-item" data-label="Silencio">
+                <a href=""><i class='bx bxs-message-rounded'></i></a>
+            </div>
+            <div class="divide"></div>
+            <div class="navbar-item" data-label="Modo Noche" id="theme-toggle">
+                <a href="#"><i class='bx bx-moon'></i></a>
+            </div>
+        </nav>   
     </header>
 
     <section class="end">
@@ -37,6 +50,10 @@
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
                 when an unknown printer took a galley of type and scrambled it to make a type specimen book.
             </p>
+            <div class="status">
+                <div class="status-dot"></div>
+                <h4>Disponible para nuevos proyectos</h4>
+            </div>
             <div class="home-sci">
                 <a href="#" style="--i:7"><i class='bx bxl-facebook-square' ></i></a>
                 <a href="#" style="--i:8"><i class='bx bxl-instagram' ></i></a>
@@ -48,8 +65,7 @@
         </div>
         <div class="image-container">
             <div class="image-container">
-                <!--<img src="/IMG/Jav1.png" onmouseover="changeImage(this, '/img/Jav2.png')" onmouseout="changeImage(this, '/IMG/Jav1.png')" alt="Foto de Javier Alarcón" class="Foto">-->
-                <img src="img/Picture1.png" alt="Foto de Javier Alarcon" class="Foto">
+                <img src="img/Picture0.0-.png" alt="Foto de Javier Alarcon" class="Foto" id="profile-picture">
             </div>
         </div>
     </section>
@@ -60,11 +76,12 @@
         <h1 class="Tittle">Major <span>Projects</span></h1>
         <div class="container2">
             <div class="wrapper">
-                <div class="grid1 image-popup" data-popup="popup1"><img src="img/me.png" alt=""></div>
-                <div class="grid2 image-popup" data-popup="popup2"><img src="img/Picsart_23-06-19_20-56-57-353.jpg" alt=""></div>
-                <div class="grid3 image-popup" data-popup="popup3"><img src="img/chibipixi.png" alt=""></div>
-                <div class="grid4 image-popup" data-popup="popup4"><img src="img/Picsart_24-02-18_17-32-22-196.png" alt=""></div>
-                <div class="grid5 image-popup" data-popup="popup5"><img src="img/Icononose.jpg" alt=""></div>
+                <div class="grid1 image-popup glass" data-popup="popup1"><img src="img/mochi.png" alt=""></div>
+                <div class="grid2 image-popup glass" data-popup="popup2"><img src="img/Picsart_23-06-19_20-56-57-353.jpg" alt=""></div>
+                <div class="grid3 image-popup glass" data-popup="popup3"><img src="img/chibipixi.png" alt=""></div>
+                <div class="grid4 image-popup glass" data-popup="popup4"><img src="img/Picsart_24-02-18_17-32-22-196.png" alt=""></div>
+                <div class="grid5 image-popup glass" data-popup="popup5"><img src="img/Icononose.jpg" alt=""></div>
+                <div class="grid6 image-popup glass" data-popup="popup6"><img src="img/mochila.png" alt=""></div>
             </div>
         </div>
         
@@ -103,8 +120,10 @@
                     </div>                  
                 </div>
                 <div class="link-container">
+                    <div class="link">
                     <a href="#"><i class='bx bx-link-external'></i></a>
                     <a href="#"><i class='bx bxl-github'></i></a>
+                    </div>
                 </div>
                 <button class="close-btn">&times;</button>
             </div>
@@ -113,7 +132,7 @@
         <div class="popup-container" id="popup2">
             <div class="popup-content" style="background-image: url('img/pasto1.jpg'); background-size: cover; width: 773px; height: 525px;" >
                 <div class="pop-content">
-                    <h5 style="color: white;">Capi Beads</h5>
+                    <h5 style="color: white; font-weight: 900;">Capi Beads</h5>
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
                     when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
 
@@ -142,12 +161,14 @@
                         <div class="itens">
                             <img src="img/GitHub-Logo.wine.svg" alt="">
                         </div>
-                    </div>            
+                    </div>          
                 </div>
                 <div class="link-container">
+                    <div class="link">
                     <a href="https://capi-capi.citasmedicasmaryury.com/" target="_blank"><i class='bx bx-link-external'></i></a>
                     <a href="#"><i class='bx bxl-github'></i></a>
-                </div>
+                    </div>
+                </div>  
                 <button class="close-btn">&times;</button>
             </div>
         </div>
@@ -186,8 +207,10 @@
                     </div>
                 </div>
                 <div class="link-container">
+                    <div class="link">
                     <a href="#"><i class='bx bx-link-external'></i></a>
                     <a href="#"><i class='bx bxl-github'></i></a>
+                    </div>
                 </div>
                 <button class="close-btn">&times;</button>
             </div>
@@ -227,8 +250,10 @@
                     </div>
                 </div>
                 <div class="link-container">
+                    <div class="link">
                     <a href="#"><i class='bx bx-link-external'></i></a>
                     <a href="#"><i class='bx bxl-github'></i></a>
+                    </div>
                 </div>
                 <button class="close-btn">&times;</button>
             </div>
@@ -268,8 +293,53 @@
                     </div>
                 </div>
                 <div class="link-container">
+                    <div class="link">
                     <a href="#"><i class='bx bx-link-external'></i></a>
                     <a href="#"><i class='bx bxl-github'></i></a>
+                    </div>
+                </div>
+                <button class="close-btn">&times;</button>
+            </div>
+        </div>
+        <div class="popup-container" id="popup6">
+            <div class="popup-content">
+                <div class="pop-content">
+                    <h5>UI/UX</h5>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                    when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                    when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+    
+                    <div class="resources">
+                        <div class="itens">
+                            <img src="img/html-1.svg" alt="">
+                        </div>
+                        <div class="itens">
+                            <img src="img/css-3.svg" alt=""> 
+                        </div>
+                        <div class="itens">
+                            <img src="img/logo-javascript.svg">
+                        </div>
+                        <div class="itens">
+                            <img src="img/angular-icon-1.svg" alt="">
+                        </div>
+                        <div class="itens">
+                            <img src="img/Bootstrap_logo.svg" alt="">
+                        </div>
+                        <div class="itens">
+                            <img src="img/Git-Icon-1788C.svg" alt="">
+                        </div>
+                        <div class="itens">
+                            <img src="img/GitHub-Logo.wine.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="link-container">
+                    <div class="link">
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                    <a href="#"><i class='bx bxl-github'></i></a>
+                    </div>
                 </div>
                 <button class="close-btn">&times;</button>
             </div>
@@ -646,7 +716,6 @@
 
     <section class="about" id="about">
         <hr>
-        <h1 class="heading1"><span></span></h1>
         <div class="about-container">
         <div class="about-img">
             <img src="img/chibipixi.png" alt="">
@@ -678,7 +747,7 @@
             <textarea name="message" placeholder="Your Message" class="contact-inputs" required></textarea>
             <button type="submit">Submit <i class='bx bxs-send'></i></button>
         </form>
-        <div class="contact-right" style="z-index: 3;">
+        <div class="contact-right" style="z-index: 2;">
             <img src="img/mochila.png" alt="">
         </div>
     </div>

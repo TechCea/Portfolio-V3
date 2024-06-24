@@ -31,25 +31,6 @@ document.addEventListener("DOMContentLoaded", function() {
         element.style.width = 'auto'; // Por ejemplo, restablece el ancho
         element.style.height = 'auto'; // Por ejemplo, restablece la altura
     }
-
-
-    var images = ["img/Picture1.png","img/Picture2.png","img/Picture2.2.png","img/Picture3.png","img/Picture4.png",
-    "img/Picture5.png","img/Picture6.png","img/Picture7.png","img/Picture8.png","img/Picture9.png"];
-    var currentIndex = 0;
-    var timer;
-    
-    function startAnimation() {
-        timer = setInterval(changeImage, 3000); // Cambia la imagen cada segundo
-    }
-    
-    function changeImage() {
-        var img = document.querySelector('.Foto');
-        currentIndex = (currentIndex + 1) % images.length; // Incrementa el índice circularmente
-        img.src = images[currentIndex]; // Cambia la imagen actual
-    }
-    
-    // Iniciar la animación automáticamente cuando se carga la página
-    startAnimation();
     
     document.addEventListener("DOMContentLoaded", function() {
         const imagePopups = document.querySelectorAll('.image-popup');
@@ -94,4 +75,81 @@ document.addEventListener("DOMContentLoaded", function() {
             burbujasContainer.appendChild(burbujaEstatica);
         }
     });
+    
+    document.addEventListener('DOMContentLoaded', function() {
+        const toggle = document.getElementById('theme-toggle');
+        const icon = toggle.querySelector('i');
+        const profilePicture = document.getElementById('profile-picture');
+        
+        const lightModeImages = [
+            "img/Picture0-dark.png",
+            "img/Picture0.1-dark.png",
+            "img/Picture1-dark.png",
+            "img/Picture2-dark.png",
+            "img/Picture3-dark.png",
+            "img/Picture4-dark.png",
+            "img/Picture5-dark.png",
+            "img/Picture6-dark.png",
+            "img/Picture7-dark.png",
+            "img/Picture8-dark.png",
+            "img/Picture9-dark.png"
+        ];
+    
+        const darkModeImages = [
+            "img/Picture0.0-.png",
+            "img/Picture0.1-.png",
+            "img/Picture1-.png",
+            "img/Picture2-.png",
+            "img/Picture3-.png",
+            "img/Picture4-.png",
+            "img/Picture5-.png",
+            "img/Picture6-.png",
+            "img/Picture7-.png",
+            "img/Picture8-.png",
+            "img/Picture9-.png"
+        ];
+    
+        let currentIndex = 0;
+        let timer;
+        let isLightMode = false;
+    
+        function updateProfilePicture() {
+            const images = isLightMode ? lightModeImages : darkModeImages;
+            profilePicture.src = images[currentIndex];
+        }
+    
+        function changeImage() {
+            currentIndex = (currentIndex + 1) % (isLightMode ? lightModeImages : darkModeImages).length;
+            updateProfilePicture();
+        }
+    
+        function startAnimation() {
+            timer = setInterval(changeImage, 3000); // Cambia la imagen cada 3 segundos
+        }
+    
+        function toggleTheme(event) {
+            event.preventDefault();
+            document.documentElement.classList.toggle('light-mode');
+            isLightMode = document.documentElement.classList.contains('light-mode');
+            
+            if (isLightMode) {
+                icon.classList.remove('bx-moon');
+                icon.classList.add('bx-sun');
+                toggle.setAttribute('data-label', 'Modo Claro');
+            } else {
+                icon.classList.remove('bx-sun');
+                icon.classList.add('bx-moon');
+                toggle.setAttribute('data-label', 'Modo Noche');
+            }
+            
+            // Actualizar la imagen del perfil inmediatamente al cambiar el tema
+            updateProfilePicture();
+        }
+    
+        toggle.addEventListener('click', toggleTheme);
+    
+        // Iniciar la animación automáticamente cuando se carga la página
+        startAnimation();
+    });
+    
     
