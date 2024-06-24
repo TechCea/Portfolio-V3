@@ -83,20 +83,6 @@ document.addEventListener("DOMContentLoaded", function() {
     
         
         const lightModeImages = [
-            "img/Picture0-dark.png",
-            "img/Picture0.1-dark.png",
-            "img/Picture1-dark.png",
-            "img/Picture2-dark.png",
-            "img/Picture3-dark.png",
-            "img/Picture4-dark.png",
-            "img/Picture5-dark.png",
-            "img/Picture6-dark.png",
-            "img/Picture7-dark.png",
-            "img/Picture8-dark.png",
-            "img/Picture9-dark.png"
-        ];
-    
-        const darkModeImages = [
             "img/Picture0.0-.png",
             "img/Picture0.1-.png",
             "img/Picture1-.png",
@@ -108,6 +94,20 @@ document.addEventListener("DOMContentLoaded", function() {
             "img/Picture7-.png",
             "img/Picture8-.png",
             "img/Picture9-.png"
+        ];
+    
+        const darkModeImages = [
+            "img/Picture0-dark.png",
+            "img/Picture0.1-dark.png",
+            "img/Picture1-dark.png",
+            "img/Picture2-dark.png",
+            "img/Picture3-dark.png",
+            "img/Picture4-dark.png",
+            "img/Picture5-dark.png",
+            "img/Picture6-dark.png",
+            "img/Picture7-dark.png",
+            "img/Picture8-dark.png",
+            "img/Picture9-dark.png"
         ];
     
         let currentIndex = 0;
