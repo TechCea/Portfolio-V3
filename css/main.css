@@ -24,33 +24,43 @@
     --purple: #7F63A6;
     --brown: #8C4842;
     --gray: #cccccc;
+    --textgray: #cccccc;
     --darkgray: #555;
     --background-dark: radial-gradient(ellipse at bottom, #1B2735 0%, #090A0F 100%);
-    --background-light: FFF;
-    --text-dark: FFF;
-    --text-light: #000000;
+    --gradient-1:linear-gradient(to top, lime, cyan);
+    --gradient-2:linear-gradient(to top, lime, 20%, cyan);
+    --gradient-3:linear-gradient(135deg, orange 60%, cyan);
+    --gradient-4: linear-gradient(#e66465, #9198e5);
+    --gradient-6: linear-gradient(147deg, #FFE53B 0%, #FF2525 74%);
+    --gradient-5: linear-gradient(147deg, #F24141 0%,  #FFE53B 74%);
     --profile-picture-light: url('img/Picture1.png');
+    --pdf: #FE7A36;
 }
 .light-mode {
     --white: #090A0F;
-    --dark: #1B2735;
-    --black: #090A0F;
+    --dark: #F2EFE5;
+    --black: #ffffff;
     --orange: #5F5BD9;
-    --otherorange: #FE4C42;
+    --otherorange: #6864e0;
     --green: #06D001;
-    --darkorange: #FE7A36;
+    --darkorange: #7F63A6   ;
     --darkblue: #333A73;
     --blue: #387ADF;
     --lightblue: #50C4ED;
     --purpledark: #591441;
     --purple: #7F63A6;
     --brown: #8C4842;
-    --gray: #ccc;
+    --gray: #FFFFFF;
+    --textgray: #2F3645;
     --background-dark: radial-gradient(ellipse at bottom, #FFFED3 0%, #FFE9D0 100%);
     /*--background-dark: radial-gradient(ellipse at bottom, #F1F8E8 0%, #95D2B3 100%);*/
-    --background-light: FFF;
-    --text-dark: FFF;
-    --text-light: #000000;
+    --gradient-1: linear-gradient(0deg, #FFE53B 0%, #FF2525 74%);
+    --gradient-2: linear-gradient(0deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
+    --gradient-3:linear-gradient(180deg, #F4D03F 0%, #16A085 100%);
+    --gradient-4: linear-gradient(0deg, #21D4FD 0%, #B721FF 100%);
+    --gradient-5: linear-gradient(45deg, #141E46 0%, #FF6A88 55%, #FF99AC 100%);
+    --gradient-6: linear-gradient(90deg, #74EBD5 0%, #9FACE6 100%);
+    --pdf: #7ED7C1;
     --profile-picture-dark: url('img/Picture1-dark.png');   
 }
 body{
@@ -214,7 +224,7 @@ header {
     margin-bottom: 5px;
     padding: 10px;
     font-size: 20px;
-    color: var(--gray);
+    color: var(--textgray);
     opacity: 0;
     animation: SlideLeft 1s ease forwards;
     animation-delay: 1s;
@@ -280,7 +290,7 @@ header {
 .home-content h3{
     font-size: 32px;
     padding: 5px;
-    color: var(--gray);
+    color: var(--textgray);
     font-weight: 700;
     margin-bottom: 10px;
     opacity: 0;
@@ -316,7 +326,7 @@ header {
     border-radius: 50%;
     font-size: 25px;
     background: var(--dark);
-    color: var(--gray);
+    color: var(--textgray);
     text-decoration: none;
     transition: .5s ease;
     opacity: 0;
@@ -339,7 +349,7 @@ header {
     opacity: 0;
     animation: SlideLeft 1s ease forwards;
     animation-delay: calc(.2s * var(--i));
-    color: var(--gray);
+    color: var(--textgray);
     letter-spacing: 1px;
     text-decoration: none;
     font-weight: 600;
@@ -359,7 +369,7 @@ header {
     opacity: 0;
     animation: SlideLeft 1s ease forwards;
     animation-delay: calc(.2s * var(--i));
-    color: var(--gray);
+    color: var(--textgray);
     letter-spacing: 1px;
     text-decoration: none;
     font-weight: 600;
@@ -403,7 +413,7 @@ section{
 }
 .Tittle{
     margin-top: 100px;
-    color: var(--gray);
+    color: var(--textgray);
     font-size: 60px;
     font-weight: 700;
     line-height: 1;
@@ -491,7 +501,7 @@ section{
     padding: 20px;
     border-radius: 10px;
     opacity: 1;
-    background: radial-gradient(ellipse at bottom, #1B2735 0%, #090A0F 100%);
+    background: var(--background-dark);
     animation: fadeOutContent 1s ease-out forwards;
     position: relative;
     backdrop-filter: blur(10px);
@@ -534,7 +544,7 @@ section{
     padding: 5px;
 }
 .link-container a i:hover{
-    color: var(--gray);
+    color: var(--textgray);
     transform: translateY(-5px);
 }
 .link-container a i {
@@ -600,7 +610,7 @@ section{
     z-index: 999; 
 }
 .close-btn:hover{
-    background-color: var(--gray);
+    background-color: var(--textgray);
     color: var(--black);
 }
 @keyframes fadeIn {
@@ -640,7 +650,7 @@ section{
     margin-top: 20px;
     margin-bottom: 10px;
     background: var(--gray);
-    background: linear-gradient(to top, lime, cyan);
+    background: var(--gradient-1);
     text-align: center;
     -webkit-text-fill-color:transparent;
     -webkit-background-clip:text;
@@ -648,7 +658,7 @@ section{
 }
 .bento-box .backend{
     background: var(--gray);
-    background: linear-gradient(to top, lime, 20%, cyan);
+    background: var(--gradient-2);
     text-align: center;
     -webkit-text-fill-color:transparent;
     -webkit-background-clip:text;
@@ -656,7 +666,7 @@ section{
 }
 .bento-box .learning{
     background: var(--gray);
-    background: linear-gradient(135deg, orange 60%, cyan);
+    background: var(--gradient-3);
     text-align: center;
     -webkit-text-fill-color:transparent;
     -webkit-background-clip:text;
@@ -664,7 +674,7 @@ section{
 }
 .bento-box .tools{
     background: var(--gray);
-    background: linear-gradient(#e66465, #9198e5);
+    background: var(--gradient-4);
     text-align: center;
     -webkit-text-fill-color:transparent;
     -webkit-background-clip:text;
@@ -694,7 +704,7 @@ section{
     position: relative;
 }
 .main-text h2{
-    color: var(--gray);
+    color: var(--textgray);
     margin-bottom: 70px;
     font-size: 60px;
     font-weight: 100;
@@ -808,7 +818,7 @@ section{
     margin-bottom: 35px;
 }
 .certi span {
-    color: var(--gray);
+    color: var(--textgray);
 }
 .acordion {
     width: 100%;
@@ -849,7 +859,7 @@ input[type="checkbox"] {
     height: 40px;
     background: transparent;
     font-size: 72px;
-    color: red;
+    color: var(--orange);
     text-decoration: none;
     transition: .1s ease;
     animation: SlideLeft 1s ease forwards;
@@ -858,7 +868,7 @@ input[type="checkbox"] {
     cursor: pointer;
 }
 .accordion-label {
-    background: linear-gradient(147deg, #F24141 0%,  #FFE53B 74%);
+    background: var(--gradient-5);
     -webkit-text-fill-color:transparent;
     -webkit-background-clip:text;
     background-clip: text;
@@ -868,7 +878,7 @@ input[type="checkbox"] {
     align-items: center;
     justify-content: space-between;
     color: var(--white);
-    background: radial-gradient(ellipse at bottom, #1B2735 0%, #090A0F 100%);
+    background: var(--background-dark);
     padding: 0 10px;
     line-height: 26px;
     max-height: 0;
@@ -883,15 +893,17 @@ input[type="checkbox"] {
 .acordion .content .left h4 {
     text-align: center;
     margin-left: 10px;
-    color: var(--black);
+    color: black;
     width: 100px;
+    margin-top: 5px;
+    margin-bottom: 5px;
     padding: 5px;
     border-radius: 8px;
     font-weight: 900;
-    background: linear-gradient(147deg, #FFE53B 0%, #FF2525 74%);
+    background: var(--gradient-6);
 }
 .acordion .content .left h5 span {
-    color: black;
+    color: var(--white);
     font-weight: 800;
 }
 .acordion .content .left h6 {
@@ -899,7 +911,7 @@ input[type="checkbox"] {
     margin-bottom: 15px;
     font-size: 17px;
     font-weight: 400;
-    color: var(--gray);
+    color: var(--textgray);
 }
 .acordion .content .left h5 {
     padding: 0px 10px 10px 10px;
@@ -915,13 +927,13 @@ input[type="checkbox"] {
     right: 90px;
 }
 .acordion .content .right a:hover {
-    color: var(--orange);
+    color: var(--pdf);
 }
 .acordion .content .right h5 {
     padding: 5px;
     font-size: 18px;
     font-weight: 500;
-    color: var(--gray);
+    color: var(--textgray);
 }
 .acordion .content .right h5 span {
     color: var(--orange);
@@ -966,7 +978,7 @@ input[type="checkbox"] {
     padding: 1rem;
     font-size: 60px;
     font-weight: 500;
-    color: var(--gray);
+    color: var(--textgray);
     opacity: 0;
     animation: SlideBottom 1s ease forwards;
     animation-delay: .7s;
@@ -1003,7 +1015,7 @@ input[type="checkbox"] {
 
 .contactm1{
     font-size: 60px;
-    color: var(--gray);
+    color: var(--textgray);
     font-weight: 500;
     text-align: center;
     margin-bottom: 25px;
@@ -1072,7 +1084,7 @@ input[type="checkbox"] {
     border-radius: 20px;
     border: 2px solid var(--otherorange);
     background: var(--dark);
-    color: var(--gray);
+    color: var(--textgray);
     cursor: pointer;
 }
 .contact-left button i{
@@ -1103,6 +1115,9 @@ input[type="checkbox"] {
     font-weight: 500;
     color: var(--bluewhite);
 }
+.foot-text h4{
+    color: var(--white);
+}
 .home-sci1 a{
     position: relative;
     display: inline-flex;
@@ -1111,11 +1126,11 @@ input[type="checkbox"] {
     width: 40px;
     height: 40px;
     background: transparent;
-    border: 2px solid var(--lightblueW);
+    border: 2px solid var(--otherorange);
     border-radius: 50%;
-    font-size: 22px;
+    font-size: 25px;
     background: var(--dark);
-    color: var(--lightblue);
+    color: var(--textgray);
     text-decoration: none;
     transition: .5s ease;
     opacity: 0;
@@ -1125,9 +1140,9 @@ input[type="checkbox"] {
     cursor: pointer;
 }
 .home-sci1 a:hover {
-    background: var(--lightblue);
-    color: var(--white);
-    box-shadow: 0 0 10px var(--lightblueW); 
+    background: var(--otherorange);
+    color: var(--black);
+    box-shadow: 0 0 10px var(--otherorange);
 }
 footer {
     position: absolute;
@@ -1160,7 +1175,6 @@ footer {
     background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
-    border-radius: 20px 20px 0 0;
     border:1px solid rgba(255, 255, 255, 0.18);
     box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
 }
