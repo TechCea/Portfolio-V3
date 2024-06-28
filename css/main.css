@@ -35,6 +35,7 @@
     --gradient-5: linear-gradient(147deg, #F24141 0%,  #FFE53B 74%);
     --profile-picture-light: url('img/Picture1.png');
     --pdf: #FE7A36;
+    --shadow-color: rgba(242, 65, 65, 0.4);
 }
 .light-mode {
     --white: #090A0F;
@@ -61,6 +62,7 @@
     --gradient-5: linear-gradient(45deg, #141E46 0%, #FF6A88 55%, #FF99AC 100%);
     --gradient-6: linear-gradient(90deg, #74EBD5 0%, #9FACE6 100%);
     --pdf: #7ED7C1;
+    --shadow-color: rgba(95, 91, 217, 0.7);
     --profile-picture-dark: url('img/Picture1-dark.png');   
 }
 body{
@@ -110,7 +112,7 @@ header {
     align-items: center;
     justify-content: center;
     background-color: #444;
-    padding: 10px;
+    padding: 5px;
     border-radius: 10px;
     transition: width 0.3s;
     opacity: 0;
@@ -160,7 +162,7 @@ header {
 }
 
 .navbar-item:hover {
-    transform: scale(1.5);
+    transform: scale(1.3);
 }
 
 .navbar-item i {
@@ -399,7 +401,7 @@ header {
     animation: SlideLeft 1s ease forwards;
     animation-delay: .7s;
     transition: opacity 0.5s ease;
-    filter: drop-shadow(0 0 10px rgba(0,0,0,.9));
+    filter: drop-shadow(0 0 10px var(--shadow-color));
     z-index: 1;
 }
 .Foto{
@@ -948,32 +950,31 @@ input[type="checkbox"] {
 
 .about{
     margin-top: 20px;
-    margin-bottom: 10px;
+    margin-bottom: 50px;
 }
 .about-container{
-    margin-top: 70px;
-    padding: 10px;
+    margin-top: 20px;
+    width: 100%;
     display: grid;
-    grid-template-columns: 1fr 2fr; /* Dos columnas donde la primera ocupa 1 parte y la segunda ocupa 2 partes */
+    grid-template-columns: 2fr .8fr; /* Dos columnas donde la primera ocupa 1 parte y la segunda ocupa 2 partes */
     align-items: center;
 }
 .about-text{
-    margin-left: 50px;
+    margin: 5px;
     color:var(--white);
 }
 .about-img img{
-    margin-left: 10px;
+    margin-left: 30px;
     max-width: 100%; /* Ajustar al ancho máximo del contenedor */
     height: auto; /* Mantener la proporción */
-    max-height: 450px; /* Altura máxima */
     border-radius: 50%;
     opacity: 0;
     border: 5px solid var(--orange);
     animation: SlideRight 1s ease forwards;
-    animation-delay: 1.5s;
+    animation-delay: .5s;
     box-shadow: 0 0 5px var(--orange), 0 0 25px var(--otherorange);
 }
-.about-text h2{
+.about h2{
     text-align: center;
     padding: 1rem;
     font-size: 60px;
@@ -983,11 +984,11 @@ input[type="checkbox"] {
     animation: SlideBottom 1s ease forwards;
     animation-delay: .7s;
 }
-.about-text h2 span{
+.about h2 span{
     color: var(--orange);
 }
 .about-text h4{
-    padding-left: 1rem;
+    padding: 1rem 1rem 0px 1rem;
     font-size: 29px;
     font-weight: 700;
     color: var(--otherorange);
@@ -1000,7 +1001,7 @@ input[type="checkbox"] {
 .about-text p{
     padding: 1rem;
     color: var(--white);
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 300;
     line-height: 1.4;
     margin-bottom: 3rem;
