@@ -154,7 +154,7 @@ document.addEventListener("DOMContentLoaded", function() {
     toggle.addEventListener('click', toggleTheme);
 });
     
-fetch('/js/projects.json')
+fetch('./js/projects.json')
         .then(response => {
             if (!response.ok) {
                 throw new Error('Network response was not ok ' + response.statusText);
