@@ -695,6 +695,7 @@ article{
           text-decoration: none;
       }
       .banner .content .link:hover{
+        color: white;
         box-shadow: 0 0 5px var(--otherorange), 0 0 15px var(--otherorange);
       }
     .button-container {
