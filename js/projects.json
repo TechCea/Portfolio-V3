@@ -23,7 +23,7 @@
       "name": "Paladente",
       "description": "Paladente is a dental clinic offering a wide range of dental services. We developed their website to help them reach more patients and provide better service.",
       "logo": "img/chibipixi.png",
-      "technologies": ["Wordpress", "HTML5", "CSS3"],
+      "technologies": ["Wordpress", "HTML5", "CSS3", "CSharp"],
       "link": "https://paladente.com",
       "github": "https://github.com/usuario/capi-beads"
     },

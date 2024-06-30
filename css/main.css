@@ -814,7 +814,7 @@ article{
           display: inline-flex;
           margin: 5px 5px 5px 5px;
           padding: 5px 10px;
-          background-color: #eeeeee;
+          background-color: #ffffff;
           color: #000000;
           border-radius: 5px;
           margin-right: 5px;
@@ -832,7 +832,7 @@ article{
   
       .banner .content .skills-used .skill:hover {
           color: var(--white);
-          background: linear-gradient(45deg, var(--orange), #ec2525);
+          background: linear-gradient(45deg, var(--orange), var(--orangep));
       }
   
       .banner .content p {
