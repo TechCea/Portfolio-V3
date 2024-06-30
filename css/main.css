@@ -487,7 +487,6 @@ article{
           margin-top: -35px;
           display: grid;
           margin: 10px auto;
-          max-width: 760px;
           grid-template-columns: repeat(4, 1fr);
           grid-template-rows: repeat(3, 160px);
           grid-auto-rows: minmax(135px,auto);
