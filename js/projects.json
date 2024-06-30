@@ -32,7 +32,7 @@
       "name": "Estoiko",
       "description": "Estoiko is a company that provides innovative solutions in the construction industry. We have been working with them to develop their online presence and improve their customer engagement.",
       "logo": "img/Icononose.jpg",
-      "technologies": ["HTML5", "CSS3", "JavaScript"],
+      "technologies": ["HTML5", "CSS3", "JavaScript","Laravel"],
       "link": "https://estoiko.com",
       "github": "https://github.com/usuario/capi-beads"
     },
