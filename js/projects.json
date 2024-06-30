@@ -13,7 +13,7 @@
       "name": "Capi Beads",
       "description": "Capibeas,es un pequeño emprendimiento de hama beads donde puedes pedir la figura que quieras para asi nosotros traerla a la vida, en figuras puedes ver algunos ejemplos de esta misma,en esta pagina solo podras encargar figuras ya echas",
       "logo": "img/Capi.jpg",
-      "backgroundImage": "img/pasto.jpg",
+      "backgroundImage": "img/pasto1.jpg",
       "technologies": ["HTML5", "CSS3", "Javascript"],
       "link": "https://capi-capi.citasmedicasmaryury.com/",
       "github": "https://github.com/usuario/capi-beads"
