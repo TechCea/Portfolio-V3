@@ -1,0 +1,59 @@
+[
+    {
+      "id": 0,
+      "name": "Capi Beads",
+      "description": "Company founded on December 24, 2020 by two colleagues and myself. Iboh Company is a Marketing agency located in the United Kingdom, specializing in web development and design. We have had some major clients like Soraya Arnelas, with her youth clothing brand, and LUCY Aranjuez, a jewelry store with thousands of products and features that I recommend seeing. I am very happy with my work and performance in the company as a director and as a worker; I have learned how to treat each type of client, how the market works, how to solve problems quickly and of any kind, and even how to make invoices and the current regulated policies.",
+      "logo": "/img/mochi.png",
+      "technologies": ["WordPress", "HTML5", "CSS3", "Photoshop", "JavaScript","Figma"],
+      "link": "https://capi-capi.citasmedicasmaryury.com/",
+      "github": "https://github.com/usuario/capi-beads"
+    },
+    {
+      "id": 1,
+      "name": "Capi Beads",
+      "description": "Capibeas,es un pequeño emprendimiento de hama beads donde puedes pedir la figura que quieras para asi nosotros traerla a la vida, en figuras puedes ver algunos ejemplos de esta misma,en esta pagina solo podras encargar figuras ya echas",
+      "logo": "/img/capicapi.jpg",
+      "backgroundImage": "/img/pasto1.jpg",
+      "technologies": ["HTML5", "CSS3", "Javascript"],
+      "link": "https://capi-capi.citasmedicasmaryury.com/",
+      "github": "https://github.com/usuario/capi-beads"
+    },
+    {
+      "id": 2,
+      "name": "Paladente",
+      "description": "Paladente is a dental clinic offering a wide range of dental services. We developed their website to help them reach more patients and provide better service.",
+      "logo": "img/chibipixi.png",
+      "technologies": ["Wordpress", "HTML5", "CSS3"],
+      "link": "https://paladente.com",
+      "github": "https://github.com/usuario/capi-beads"
+    },
+    {
+      "id": 3,
+      "name": "Estoiko",
+      "description": "Estoiko is a company that provides innovative solutions in the construction industry. We have been working with them to develop their online presence and improve their customer engagement.",
+      "logo": "img/Icononose.jpg",
+      "technologies": ["HTML5", "CSS3", "Javascript"],
+      "link": "https://estoiko.com",
+      "github": "https://github.com/usuario/capi-beads"
+    },
+    {
+      "id": 4,
+      "name": "Benedict",
+      "description": "Benedict is a high-end fashion brand. We helped them create a sophisticated online store that matches their brand's luxury image.",
+      "logo": "img/Picsart_24-02-18_17-32-22-196.png",
+      "technologies": ["Wordpress", "HTML5", "CSS3", "Javascript"],
+      "link": "https://benedict.com",
+      "github": "https://github.com/usuario/capi-beads"
+    },
+    {
+      "id": 5,
+      "name": "Casa Rural Madrid Sur",
+      "description": "Casa Rural Madrid Sur offers a beautiful and relaxing getaway in the Spanish countryside. We developed their website to showcase their stunning properties and attract more visitors.",
+      "logo": "img/mochila.png",
+      "technologies": ["Wordpress", "HTML5", "CSS3", "Javascript"],
+      "link": "https://casaruralmadridsur.com",
+      "github": "https://github.com/usuario/capi-beads"
+    }
+  ]
+
+  
