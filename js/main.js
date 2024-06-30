@@ -262,7 +262,7 @@ fetch('./js/projects.json')
                 githubLink.setAttribute("target", "_blank");
 
                 let githubIcon = document.createElement("img");
-                githubIcon.src = "img/icons/GitHub-Logo.wine.svg";
+                githubIcon.src = "img/icons/GitHub.svg";
                 githubIcon.alt = "GitHub";
                 githubIcon.style.width = "44px";
                 githubIcon.style.height = "44px";
