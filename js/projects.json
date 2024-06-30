@@ -50,7 +50,7 @@
       "name": "Casa Rural Madrid Sur",
       "description": "Casa Rural Madrid Sur offers a beautiful and relaxing getaway in the Spanish countryside. We developed their website to showcase their stunning properties and attract more visitors.",
       "logo": "img/mochila.png",
-      "technologies": ["WordPress", "HTML5", "CSS3", "JavaScript"],
+      "technologies": ["WordPress", "HTML5", "CSS3", "JavaScript","Angular"],
       "link": "https://casaruralmadridsur.com",
       "github": "https://github.com/usuario/capi-beads"
     }
