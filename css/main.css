@@ -785,12 +785,14 @@ article{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    
 }
 .bento-box {
     font-size: 28px;
     width: 400px;
     height: 350px;
     border-radius: 10px;
+    margin-bottom: 15px;
 }
 
 .bento-box h2{
