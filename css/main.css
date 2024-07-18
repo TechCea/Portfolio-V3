@@ -619,7 +619,7 @@ article{
           box-shadow: rgba(0, 0, 0, 0.15) 4px 4px 15px;
           transition: 800ms;
           padding: 20px;
-          border:1px solid var(--white);
+          border:2px solid var(--orange);
           overflow: hidden;
       }
   
