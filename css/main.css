@@ -911,35 +911,18 @@ article{
     display: flex;
     align-items: center;
     padding: 10px;
-    font-size: 18px;
-    font-weight: 500;
+    font-size: 25px;
+    font-weight: 700;
     cursor: pointer;
 }
 label::before {
     content: "+";
     margin-right: 10px;
-    font-size: 20px;
+    font-size: 25px;
     font-weight: 600;
 }
 input[type="checkbox"] {
     display: none;
-}
-.content a {
-    position: relative;
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    width: 40px;
-    height: 40px;
-    background: transparent;
-    font-size: 72px;
-    color: var(--orange);
-    text-decoration: none;
-    transition: .1s ease;
-    animation: SlideLeft 1s ease forwards;
-    animation-delay: calc(.2s * var(--i));
-    margin: 30px 20px 30px 0;
-    cursor: pointer;
 }
 .accordion-label {
     background: var(--gradient-5);
@@ -947,79 +930,92 @@ input[type="checkbox"] {
     -webkit-background-clip:text;
     background-clip: text;
 }
+.content a {
+    position: relative;
+    display: inline-flex;
+    width: 40px;
+    height: 40px;
+    font-size: 72px;
+    color: var(--orange);
+    text-decoration: none;
+    transition: .1s ease;
+    animation: SlideLeft 1s ease forwards;
+    animation-delay: calc(.2s * var(--i));
+    margin: 10px 30px 10px 20px;
+    cursor: pointer;
+}
 .acordion .content {
     display: flex;
     align-items: center;
-    justify-content: space-between;
     color: var(--white);
     background: var(--background-dark);
-    padding: 0 10px;
-    line-height: 26px;
+    line-height: 16px;
     max-height: 0;
     overflow: hidden;
-    border: solid 1px var(--white);
+    border: solid 1.5px var(--white);
     border-radius: 8px;
-    transition: max-height 0.5s, padding 0.5s;
+    transition: max-height 0.5s ease-in-out, padding 0.5s ease-in-out;
 }
 .acordion .content .left {
-    width: 500px;
+    width: 450px;
+    height: 200px;
+    overflow: hidden;
 }
-.acordion .content .left h4 {
-    text-align: center;
-    margin-left: 10px;
-    color: black;
-    width: 100px;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    padding: 5px;
-    border-radius: 8px;
-    font-weight: 900;
-    background: var(--gradient-6);
-}
-.acordion .content .left h5 span {
-    color: var(--white);
-    font-weight: 800;
-}
-.acordion .content .left h6 {
-    padding: 0px 10px 5px 10px;
-    margin-bottom: 15px;
-    font-size: 17px;
-    font-weight: 400;
-    color: var(--textgray);
-}
-.acordion .content .left h5 {
-    padding: 0px 10px 10px 10px;
-    font-size: 20px;
-    font-weight: 400;
+.acordion .content .left img {
+    width: 100%;
+    height: 100%;
 }
 .acordion .content .right {
-    width: 300px;
-    text-align: right;
-}
-.acordion .content .right a {
-    position: relative;
-    right: 90px;
-}
-.acordion .content .right a:hover {
-    color: var(--pdf);
+    width: 400px;
 }
 .acordion .content .right h5 {
-    padding: 5px;
     font-size: 18px;
-    font-weight: 500;
+    font-weight: 700;
+    margin: 10px 10px 20px 20px;
     color: var(--textgray);
 }
-.acordion .content .right h5 span {
+.acordion .content .right h4 {
+    font-size: 18px;
+    font-weight: 700;
+    margin: 10px 10px 20px 20px;
+    background: var(--gradient-5);
+    -webkit-text-fill-color:transparent;
+    -webkit-background-clip:text;
+    background-clip: text;
+}
+.acordion .content .right h6 {
+    font-size: 16px;
+    font-weight: 400;
+    margin: 10px 10px 20px 20px;
+    color: var(--textgray);
+}
+.acordion .content .right h5 span{
     color: var(--orange);
 }
+.acordion .content .right a {
+    padding: 20px 100px;
+    font-size: 14px;
+    color: var(--white);
+    background: var(--gradient-6);
+    border: 2px solid var(--pdf);
+    border-radius: 8px;
+    text-decoration: none;
+    transition: background 0.3s, color 0.3s;
+}
+.acordion .content .right a:hover {
+    background: var(--pdf);
+    color: var(--white);
+}
 .acordion input[type="checkbox"]:checked + label + .content {
-    max-height: 300px;
-    padding: 5px 10px 5px;
+    max-height: 300px; /* Ajusta esta altura según sea necesario */
 }
 .acordion input[type="checkbox"]:checked + label::before {
     content: "−";
 }
-
+.acordion .content .left img:hover {
+    transform: scale(1.1); /* Efecto de zoom */
+    filter: sepia(100%) hue-rotate(90deg); /* Cambia el color de la imagen */
+}
 .about{
     margin-top: 20px;
     margin-bottom: 50px;
