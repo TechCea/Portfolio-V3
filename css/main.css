@@ -1069,9 +1069,13 @@ input[type="checkbox"] {
 }
 
 .button span {
-    padding: 0.5rem 2rem;
+    padding: 0.5rem 1rem;
     transition: all 0.075s ease-in;
     border-radius: 0.375rem;
+}
+.icon {
+    width: 24px; /* Ajusta el tamaño del icono */
+    height: 24px; /* Ajusta el tamaño del icono */
 }
 
 .about{
