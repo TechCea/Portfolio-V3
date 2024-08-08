@@ -541,7 +541,7 @@ header {
             background: var(--dark);
             padding: 0; /* Remove padding to fit the image */
             text-indent: -9999px; /* Hide the text */
-            background-image: url('/img/icons/cvgray.png'); /* Replace with your image path */
+            background-image: url('img/icons/cvgray.png'); /* Replace with your image path */
             background-size: cover;            
             border-radius: 50%; /* Keep the round shape */
             font-size: 15x;
