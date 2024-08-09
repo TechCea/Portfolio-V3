@@ -235,13 +235,14 @@ header {
     z-index: 3;
 }
     .navbar {
-        width: 95%;
+        width: 100%;
         max-width: 350px;
         display: flex;
         align-items: center;
         justify-content: center;
         background-color: #444;
         padding: 5px;
+        margin: 0 auto;
         border-radius: 10px;
         transition: width 0.3s;
         opacity: 0;
@@ -322,7 +323,7 @@ header {
     z-index: 3;
 }
     .navbar {
-        width: 95%;
+        width: 100%;
         max-width: 350px;
         display: flex;
         align-items: center;
@@ -334,6 +335,7 @@ header {
         opacity: 0;
         animation: SlideTop .7s ease forwards;
         animation-delay: .2s;
+        margin: 0 auto;
         z-index: 4;
     }
 
@@ -409,7 +411,7 @@ header {
     z-index: 3;
 }
     .navbar {
-        width: 95%;
+        width: 100%;
         max-width: 350px;
         display: flex;
         align-items: center;
@@ -421,6 +423,7 @@ header {
         opacity: 0;
         animation: SlideTop .7s ease forwards;
         animation-delay: .2s;
+        margin: 0 auto;
         z-index: 4;
     }
 
@@ -707,11 +710,11 @@ header {
 .home{
     position: relative;
     display: flex;
-    flex-direction: column;
-    margin: 10px;
-    margin-top: 100px;
+    flex-direction: column;  
     width: 100%;
     max-width: 900px;
+    margin: 0 auto;
+    margin-top: 100px;
     z-index: 1;
 }
 .home-content h3 {
