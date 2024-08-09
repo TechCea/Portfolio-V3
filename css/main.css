@@ -1298,13 +1298,13 @@ input[type="checkbox"] {
     
     .content-wrapper h2 {
         font-weight: bold;
-        font-size: 1.5rem;
+        font-size: 2rem;
         margin: 0 0 1rem 0;
         color: var(--orange);
     }
     
     .content-wrapper p {
-        font-size: 1rem;
+        font-size: 1.7rem;
         color: var(--white);
         margin: 1.5rem 0 2rem 0;
     }
@@ -1316,7 +1316,7 @@ input[type="checkbox"] {
         padding: 0.3rem 0.4rem;
         margin: 0.5rem;
         margin-top: -40px;
-        font-size: 9px;
+        font-size: 15px;
         font-weight: medium;
         color: var(--white);
         border-radius: 5px;
