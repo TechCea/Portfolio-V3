@@ -401,7 +401,7 @@ header {
     left: 0;
     position: fixed;
     top: 0;
-    width: 95%;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -409,7 +409,7 @@ header {
     z-index: 3;
 }
     .navbar {
-        width: 90%;
+        width: 95%;
         max-width: 350px;
         display: flex;
         align-items: center;
