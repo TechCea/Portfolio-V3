@@ -883,7 +883,8 @@ article{
           aspect-ratio: 4 / 2;
           margin-top: -35px;
           display: grid;
-          margin: 10px auto;
+          margin: 0 auto;
+          margin-top: 30px;
           grid-template-columns: repeat(4, 1fr);
           grid-template-rows: repeat(3, 160px);
           grid-auto-rows: minmax(135px,auto);
@@ -1192,7 +1193,7 @@ article{
             width: 95%;
             aspect-ratio: 4 / 4;
             display: grid;
-            margin: 10px auto;
+            margin: 0 auto;
             grid-template-columns: repeat(4, 1fr); /* 4 columnas iguales */
             grid-template-rows: repeat(3, 160px); /* 3 filas de 160px de altura */
             grid-auto-rows: minmax(135px, auto); /* Altura mínima para las filas adicionales */
@@ -1279,7 +1280,7 @@ article{
             width: 100%;
             aspect-ratio: 4 / 4;
             display: grid;
-            margin: 10px auto;
+            margin: 0 auto;
             grid-template-columns: repeat(4, 1fr); /* 4 columnas iguales */
             grid-template-rows: repeat(3, 160px); /* 3 filas de 160px de altura */
             grid-auto-rows: minmax(135px, auto); /* Altura mínima para las filas adicionales */
