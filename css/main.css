@@ -1217,6 +1217,7 @@ input[type="checkbox"] {
     margin: auto;
     margin-top: 80px;
     margin-bottom: 80px;
+    margin: 5px;
     width: 100%;
     display: inline-flex;
     align-items: center;
@@ -1273,6 +1274,74 @@ input[type="checkbox"] {
     width: 24px; /* Ajusta el tamaño del icono */
     height: 24px; /* Ajusta el tamaño del icono */
 }
+
+@media (max-width: 768px) {
+    
+    .content-wrapper {
+        margin-top: 80px;
+        margin-bottom: 80px;
+        width: 99%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 2rem;
+        border-radius: 1rem;
+        background: var(--background-dark);
+        backdrop-filter: blur(3rem);
+        border: 1px solid var(--orange);
+        gap: 3rem;
+        color: var(--white);
+        text-align: center;
+        max-width: 1000px;
+    }
+    
+    .content-wrapper h2 {
+        font-weight: bold;
+        font-size: 1.5rem;
+        margin: 0 0 1rem 0;
+        color: var(--orange);
+    }
+    
+    .content-wrapper p {
+        font-size: 1rem;
+        color: var(--white);
+        margin: 1.5rem 0 2rem 0;
+    }
+    
+    .button {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0.3rem 0.4rem;
+        margin: 0.5rem;
+        margin-top: -40px;
+        font-size: 9px;
+        font-weight: medium;
+        color: var(--white);
+        border-radius: 5px;
+        background: var(--gradient-6);
+        border: none;
+        cursor: pointer;
+        transition: background 0.6s;
+    }
+    
+    .button:hover {
+        box-shadow: 0 0 5px var(--orange), 0 0 15px var(--orange);
+    }
+    
+    .button span {
+        padding: 0.5rem 1rem;
+        transition: all 0.075s ease-in;
+        border-radius: 0.375rem;
+    }
+    
+    .icon {
+        width: 24px; /* Ajusta el tamaño del icono */
+        height: 24px; /* Ajusta el tamaño del icono */
+    }
+    }
+
 
 .about{
     margin-top: 20px;
@@ -1437,41 +1506,6 @@ input[type="checkbox"] {
     }
 }
 
-.foot-text{
-    font-size: 18px;
-    padding: 20px;
-    font-weight: 500;
-    color: var(--bluewhite);
-}
-.foot-text h4{
-    color: var(--white);
-}
-.home-sci1 a{
-    position: relative;
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    width: 40px;
-    height: 40px;
-    background: transparent;
-    border: 2px solid var(--otherorange);
-    border-radius: 50%;
-    font-size: 25px;
-    background: var(--dark);
-    color: var(--textgray);
-    text-decoration: none;
-    transition: .5s ease;
-    opacity: 0;
-    animation: SlideLeft 1s ease forwards;
-    animation-delay: calc(.2s * var(--i));
-    margin: 10px 20px 10px 0;
-    cursor: pointer;
-}
-.home-sci1 a:hover {
-    background: var(--otherorange);
-    color: var(--black);
-    box-shadow: 0 0 10px var(--otherorange);
-}
 .container {
     --spread: 60;
     display: flex;
@@ -1636,16 +1670,45 @@ input[type="checkbox"] {
   .dg.ac {
     z-index: 99999 !important;
   }
+
+.home-sci1 a{
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid var(--otherorange);
+    border-radius: 50%;
+    font-size: 25px;
+    background: var(--dark);
+    color: var(--textgray);
+    text-decoration: none;
+    transition: .2s ease;
+    opacity: 0;
+    animation: SlideLeft .2s ease forwards;
+    animation-delay: calc(.2s * var(--i));
+    margin: 10px 20px 10px 0;
+    cursor: pointer;
+}
+.home-sci1 a:hover {
+    background: var(--otherorange);
+    color: var(--black);
+    box-shadow: 0 0 10px var(--otherorange);
+}
 footer {
-    position: absolute;
-    display: grid;
-    left: -0px;
-    grid-template-columns: repeat(2, 40rem);
+    display: flex;
+    flex-direction: column;
     width: 100%;
     text-align: center;
 }
 .foot-text{
-    margin-left: 250px;
+    padding: 5px;
+    color: var(--white);
+    background: var(--darkgray);
+    text-align: center;
+    font-size: 1rem;
 }
 .glass2{
     background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
@@ -1667,6 +1730,7 @@ footer {
     background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
+    border-radius: 10px 10px 0px 0px;
     border:1px solid rgba(255, 255, 255, 0.18);
     box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
 }
