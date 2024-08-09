@@ -1456,8 +1456,8 @@ article{
 
     .bento-box {
         font-size: 28px;
-        width: 250px;
-        height: 250px;
+        width: 275px;
+        height: 275px;
         border-radius: 10px;
         margin-bottom: 15px;
     }
@@ -1509,20 +1509,20 @@ article{
         padding: 10px;
     }
     .item i {
-        font-size: 34px;
+        font-size: 44px;
     }
     .item img{
-        width: 34px;
-        height: 34px;
+        width: 44px;
+        height: 44px;
     }
     .item svg{
-        width: 34px;
-        height: 34px;
+        width: 44px;
+        height: 44px;
     }
     .item span {
         color: var(--white);
         margin-top: 10px;
-        font-size: 10px;
+        font-size: 13px;
     }
     
 }
