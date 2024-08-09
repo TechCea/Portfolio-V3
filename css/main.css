@@ -1175,7 +1175,7 @@ article{
             padding: 10px;
         }
         .elements {
-            width: 95%;
+            width: 100%;
             aspect-ratio: 4 / 4;
             display: grid;
             margin: 10px auto;
