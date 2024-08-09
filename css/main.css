@@ -35,6 +35,7 @@
     --gradient-4: linear-gradient(#e66465, #9198e5);
     --gradient-6: linear-gradient(147deg, #FFE53B 0%, #FF2525 74%);
     --gradient-5: linear-gradient(147deg, #F24141 0%,  #FFE53B 74%);
+    --gradient-7: linear-gradient(147deg, #FF2525 35%,  #FFE53B 74%);
     --profile-picture-light: url('img/Picture1.png');
     --pdf: #FE7A36;
     --shadow-color: rgba(242, 65, 65, 0.4);
@@ -1390,7 +1391,7 @@ article{
     margin-top: 20px;
     margin-bottom: 10px;
     background: var(--gray);
-    background: var(--gradient-1);
+    background: var(--gradient-6);
     text-align: center;
     -webkit-text-fill-color:transparent;
     -webkit-background-clip:text;
@@ -1398,7 +1399,7 @@ article{
 }
 .bento-box .backend{
     background: var(--gray);
-    background: var(--gradient-2);
+    background: var(--gradient-7);
     text-align: center;
     -webkit-text-fill-color:transparent;
     -webkit-background-clip:text;
@@ -1406,7 +1407,7 @@ article{
 }
 .bento-box .learning{
     background: var(--gray);
-    background: var(--gradient-3);
+    background: var(--gradient-6);
     text-align: center;
     -webkit-text-fill-color:transparent;
     -webkit-background-clip:text;
@@ -1414,7 +1415,7 @@ article{
 }
 .bento-box .tools{
     background: var(--gray);
-    background: var(--gradient-4);
+    background: var(--gradient-7);
     text-align: center;
     -webkit-text-fill-color:transparent;
     -webkit-background-clip:text;
@@ -1451,6 +1452,82 @@ article{
     line-height: 1;
     text-align: center;
 }
+@media (max-width: 668px) {
+
+    .bento-box {
+        font-size: 28px;
+        width: 250px;
+        height: 250px;
+        border-radius: 10px;
+        margin-bottom: 15px;
+    }
+    
+    .bento-box h2{
+        margin-top: 20px;
+        margin-bottom: 10px;
+        background: var(--gray);
+        background: var(--gradient-6);
+        text-align: center;
+        -webkit-text-fill-color:transparent;
+        -webkit-background-clip:text;
+        background-clip: text;
+    }
+    .bento-box .backend{
+        background: var(--gray);
+        background: var(--gradient-7);
+        text-align: center;
+        -webkit-text-fill-color:transparent;
+        -webkit-background-clip:text;
+        background-clip: text;
+    }
+    .bento-box .learning{
+        background: var(--gray);
+        background: var(--gradient-6);
+        text-align: center;
+        -webkit-text-fill-color:transparent;
+        -webkit-background-clip:text;
+        background-clip: text;
+    }
+    .bento-box .tools{
+        background: var(--gray);
+        background: var(--gradient-7);
+        text-align: center;
+        -webkit-text-fill-color:transparent;
+        -webkit-background-clip:text;
+        background-clip: text;
+    }
+    .items {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr); 
+        gap: 5px; 
+    }
+    .item {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 10px;
+    }
+    .item i {
+        font-size: 34px;
+    }
+    .item img{
+        width: 34px;
+        height: 34px;
+    }
+    .item svg{
+        width: 34px;
+        height: 34px;
+    }
+    .item span {
+        color: var(--white);
+        margin-top: 10px;
+        font-size: 10px;
+    }
+    
+}
+
+
 .main-text h2 span{
     color: var(--orange);
     font-weight: 700;
