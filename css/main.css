@@ -1699,6 +1699,8 @@ input[type="checkbox"] {
     }
     }
 
+
+
     .about {
         margin-top: 20px;
         margin-bottom: 50px;
@@ -1761,7 +1763,34 @@ input[type="checkbox"] {
     .about h2 span {
         color: var(--orange);
     }
-    
+    @media (max-width: 768px){
+        .profile-container {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: flex-start;
+            padding: 25px;
+            max-width: 1000px;
+            margin: 0 auto;
+            background: var(--background-dark);
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            z-index: 4;
+        }
+        .text-section {
+            width: 100%;
+        }
+        .image-section {
+            width: 60%;
+            margin: auto;
+            padding-top: 25px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+
+
 .contactm1{
     font-size: 60px;
     color: var(--textgray);
