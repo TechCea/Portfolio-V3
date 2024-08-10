@@ -304,3 +304,40 @@ fetch('./js/projects.json')
             }, 500);
         }
     }
+
+
+    // Seleccionar todos los elementos con la clase copyEmailButton
+const emailButtons = document.querySelectorAll('.copyEmailButton');
+
+// El correo electrónico a copiar
+const email = "jav.alarconcea@gmail.com";
+
+// Agregar evento click a cada botón
+emailButtons.forEach(button => {
+    button.addEventListener("click", function(event) {
+        event.preventDefault(); // Prevenir la acción predeterminada del enlace
+
+        // Copiar el correo electrónico al portapapeles
+        navigator.clipboard.writeText(email).then(function() {
+            // Mostrar alerta personalizada con SweetAlert2 como toast
+            Swal.fire({
+                icon: 'success',
+                title: '¡Copiado!',
+                text: 'Correo electrónico copiado al portapapeles',
+                toast: true,
+                position: 'top-end',
+                showConfirmButton: false,
+                timer: 2000,
+                timerProgressBar: true
+            });
+        }).catch(function(err) {
+            console.error("Error al copiar el correo electrónico: ", err);
+            Swal.fire({
+                icon: 'error',
+                title: 'Error',
+                text: 'No se pudo copiar el correo electrónico',
+                confirmButtonText: 'OK'
+            });
+        });
+    });
+});
