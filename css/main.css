@@ -1700,13 +1700,14 @@ input[type="checkbox"] {
         transition: max-height .3s ease-in-out, padding .3s ease-in-out;
     }
     .acordion .content-2 .left {
-        width: 450px;
+        width: 600px;
         height: 200px;
         overflow: hidden;
     }
     .acordion .content-2 .left img {
-        width: 100%;
+        width:100%;
         height: 100%;
+        object-fit: fill;
     }
     .acordion .content-2 .right {
         width: 550px;
