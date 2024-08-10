@@ -490,7 +490,7 @@ header {
     display: flex;
     align-items: center;
     padding: 0 10%;
-    margin-top: 150px;
+    margin-top: 100px;
     margin-left: -150px;
     color: var(--white);
     background-size: cover;
@@ -670,11 +670,14 @@ header {
     margin-top: 5px;
     margin-bottom: 5px;
     padding: 10px;
-    font-size: 20px;
+    font-size: 18px;
     color: var(--textgray);
     opacity: 0;
     animation: SlideLeft 1s ease forwards;
     animation-delay: .2s;
+}
+.status h4{
+    font-weight: 900;
 }
 .status-dot {
     width: 10px;
@@ -1034,6 +1037,7 @@ article{
           gap: 20px;
           opacity: 0;
           transition: 1000ms;
+          cursor: default;
       }
   
       .banner .content.visible {

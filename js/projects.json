@@ -24,8 +24,8 @@
       "description": "Paladente is a dental clinic offering a wide range of dental services. We developed their website to help them reach more patients and provide better service.",
       "logo": "img/katpin.jpg",
       "technologies": ["WordPress", "HTML5", "CSS3", "CSharp"],
-      "link": "https://paladente.com",
-      "github": "https://github.com/usuario/capi-beads"
+      "link": "https://techcea.github.io/KatPinStore/",
+      "github": "https://github.com/TechCea/KatPinStore"
     },
     {
       "id": 3,
@@ -33,7 +33,7 @@
       "description": "Estoiko is a company that provides innovative solutions in the construction industry. We have been working with them to develop their online presence and improve their customer engagement.",
       "logo": "img/Icononose.jpg",
       "technologies": ["HTML5", "CSS3", "JavaScript","Laravel"],
-      "link": "https://estoiko.com",
+      "link": "",
       "github": "https://github.com/usuario/capi-beads"
     },
     {
@@ -42,7 +42,7 @@
       "description": "Benedict is a high-end fashion brand. We helped them create a sophisticated online store that matches their brand's luxury image.",
       "logo": "img/Picsart_24-02-18_17-32-22-196.png",
       "technologies": ["WordPress", "HTML5", "CSS3", "JavaScript"],
-      "link": "https://benedict.com",
+      "link": "",
       "github": "https://github.com/usuario/capi-beads"
     },
     {
@@ -51,7 +51,7 @@
       "description": "Casa Rural Madrid Sur offers a beautiful and relaxing getaway in the Spanish countryside. We developed their website to showcase their stunning properties and attract more visitors.",
       "logo": "img/mochila.png",
       "technologies": ["WordPress", "HTML5", "CSS3", "JavaScript","Angular"],
-      "link": "https://casaruralmadridsur.com",
+      "link": "",
       "github": "https://github.com/usuario/capi-beads"
     }
   ]
