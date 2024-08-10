@@ -342,3 +342,16 @@ emailButtons.forEach(button => {
     });
 });
 
+
+document.querySelectorAll('.acordion li').forEach(item => {
+    item.addEventListener('click', function() {
+        const checkbox = this.querySelector('input[type="checkbox"]');
+        checkbox.checked = !checkbox.checked;
+    });
+});
+
+document.querySelectorAll('.acordion li .content-2').forEach(content => {
+    content.addEventListener('click', function(event) {
+        event.stopPropagation(); // Evita que el click cierre el acordeón
+    });
+});

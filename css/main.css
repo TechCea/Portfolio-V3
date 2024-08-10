@@ -1556,6 +1556,7 @@ article{
     padding: 15px;
     border-radius: 8px;
     background: var(--dark);
+    cursor: pointer;
 }
 .acordion li label {
     display: flex;
@@ -1591,6 +1592,7 @@ input[type="checkbox"] {
     border: solid 1.5px var(--white);
     border-radius: 8px;
     transition: max-height .3s ease-in-out, padding .3s ease-in-out;
+    cursor: default;
 }
 .acordion .content-2 .left {
     width: 450px;
