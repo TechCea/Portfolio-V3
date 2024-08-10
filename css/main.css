@@ -1902,6 +1902,8 @@ input[type="checkbox"] {
         background: var(--background-dark);
         border-radius: 10px;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        margin-bottom: 50px;
+        margin-top: 50px;
         z-index: 4;
     }
     
@@ -1994,6 +1996,7 @@ input[type="checkbox"] {
     height: 100%;
     display: flex;
     align-items: center;
+    margin-top: 50px;
     justify-content: space-evenly;
     z-index: 3;
 }
