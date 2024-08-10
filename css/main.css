@@ -1308,18 +1308,18 @@ article{
         }
       
         .elements .element:nth-child(3) {
-            grid-column: 3 / 4;
+            grid-column: 3 / 5;
             grid-row: 2 / 3;
         }
         .elements .element:nth-child(3) img {
           width: 100%; /* Ajusta al ancho completo del contenedor */
           height: 100%; /* Se ajusta automáticamente para mantener la proporción */
-          object-fit:fill; /* Ajusta la imagen para que quepa completamente sin distorsión */
+          object-fit: fill; /* Ajusta la imagen para que quepa completamente sin distorsión */
       }
     
         .elements .element:nth-child(4) {
             grid-column: 4 / 5;
-            grid-row: 2 / 4;
+            grid-row: 3 / 4;
         }
         .elements .element:nth-child(4) img {
           width: 100%; /* Ajusta al ancho completo del contenedor */
