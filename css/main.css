@@ -307,7 +307,7 @@ header {
       background: var(--white);
       margin: 0 10px; /* Ajusta el espacio a los lados de la línea */
     }
-    .navbar-item:nth-child(5), /* Ocultar el tercer ícono */
+     /* Ocultar el tercer ícono */
     .navbar-item:nth-child(3) { /* Ocultar el cuarto ícono */
         display: none;
     }
@@ -395,7 +395,7 @@ header {
       background: var(--white);
       margin: 0 10px; /* Ajusta el espacio a los lados de la línea */
     }
-    .navbar-item:nth-child(5), /* Ocultar el tercer ícono */
+     /* Ocultar el tercer ícono */
     .navbar-item:nth-child(3) { /* Ocultar el cuarto ícono */
         display: none;
     }
