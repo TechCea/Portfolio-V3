@@ -292,7 +292,7 @@ fetch('./js/projects.json')
 
                 setTimeout(() => {
                     content.classList.add("visible");
-                }, 1100);
+                }, 1200);
             });
         });
 

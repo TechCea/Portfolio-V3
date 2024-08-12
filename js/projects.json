@@ -1,8 +1,8 @@
 [
     {
       "id": 0,
-      "name": "Capi Beads",
-      "description": "Company founded on December 24, 2020 by two colleagues and myself. Iboh Company is a Marketing agency located in the United Kingdom, specializing in web development and design. We have had some major clients like Soraya Arnelas, with her youth clothing brand, and LUCY Aranjuez, a jewelry store with thousands of products and features that I recommend seeing. I am very happy with my work and performance in the company as a director and as a worker; I have learned how to treat each type of client, how the market works, how to solve problems quickly and of any kind, and even how to make invoices and the current regulated policies.",
+      "name": "🚧 Aplicación en Desarrollo 🚧",
+      "description": "Esta aplicación está en proceso de construcción. Algunas funcionalidades pueden no estar disponibles o aún en fase de pruebas. ¡Gracias por tu comprensión y paciencia!",
       "logo": "img/pokemon.gif",
       "technologies": ["WordPress", "HTML5", "CSS3", "Photoshop", "JavaScript","Figma"],
       "link": "https://capi-capi.citasmedicasmaryury.com/",
@@ -21,16 +21,16 @@
     {
       "id": 2,
       "name": "Kat Pin Store",
-      "description": "Paladente is a dental clinic offering a wide range of dental services. We developed their website to help them reach more patients and provide better service.",
+      "description": "Kat Pin Store es una tienda online dedicada a ofrecerte los pines y accesorios más creativos y únicos. Aunque no puedes realizar compras directamente aquí, hemos creado este espacio para que explores y descubras toda nuestra variedad de productos.",
       "logo": "img/katpin.jpg",
-      "technologies": ["WordPress", "HTML5", "CSS3", "CSharp"],
+      "technologies": ["HTML5", "CSS3", "JavaScript" ],
       "link": "https://techcea.github.io/KatPinStore/",
       "github": "https://github.com/TechCea/KatPinStore"
     },
     {
       "id": 3,
-      "name": "Estoiko",
-      "description": "Estoiko is a company that provides innovative solutions in the construction industry. We have been working with them to develop their online presence and improve their customer engagement.",
+      "name": "🚧 Aplicación en Desarrollo 🚧",
+      "description": "Esta aplicación está en proceso de construcción. Algunas funcionalidades pueden no estar disponibles o aún en fase de pruebas. ¡Gracias por tu comprensión y paciencia!",
       "logo": "img/Icononose.jpg",
       "technologies": ["HTML5", "CSS3", "JavaScript","Laravel"],
       "link": "",
@@ -38,8 +38,8 @@
     },
     {
       "id": 4,
-      "name": "Benedict",
-      "description": "Benedict is a high-end fashion brand. We helped them create a sophisticated online store that matches their brand's luxury image.",
+      "name": "Pixicinema",
+      "description": "🚧 Aplicación en Desarrollo 🚧, Esta aplicación está en proceso de construcción. Algunas funcionalidades pueden no estar disponibles o aún en fase de pruebas. ¡Gracias por tu comprensión y paciencia!",
       "logo": "img/Picsart_24-02-18_17-32-22-196.png",
       "technologies": ["WordPress", "HTML5", "CSS3", "JavaScript"],
       "link": "",
@@ -47,8 +47,8 @@
     },
     {
       "id": 5,
-      "name": "Casa Rural Madrid Sur",
-      "description": "Casa Rural Madrid Sur offers a beautiful and relaxing getaway in the Spanish countryside. We developed their website to showcase their stunning properties and attract more visitors.",
+      "name": "Tienda Online",
+      "description": "🚧 Aplicación en Desarrollo 🚧, Esta aplicación está en proceso de construcción. Algunas funcionalidades pueden no estar disponibles o aún en fase de pruebas. ¡Gracias por tu comprensión y paciencia!",
       "logo": "img/mochila.png",
       "technologies": ["WordPress", "HTML5", "CSS3", "JavaScript","Angular"],
       "link": "",
