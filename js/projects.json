@@ -38,12 +38,12 @@
     },
     {
       "id": 4,
-      "name": "Pixicinema",
+      "name": "TierMaker",
       "description": "🚧 Aplicación en Desarrollo 🚧, Esta aplicación está en proceso de construcción. Algunas funcionalidades pueden no estar disponibles o aún en fase de pruebas. ¡Gracias por tu comprensión y paciencia!",
-      "logo": "img/Picsart_24-02-18_17-32-22-196.png",
-      "technologies": ["WordPress", "HTML5", "CSS3", "JavaScript"],
-      "link": "",
-      "github": "https://github.com/usuario/capi-beads"
+      "logo": "img/tiermaker2.jpg",
+      "technologies": ["HTML5", "CSS3", "JavaScript"],
+      "link": "https://techcea.github.io/Tier-Maker/",
+      "github": "https://github.com/TechCea/Tier-Maker"
     },
     {
       "id": 5,

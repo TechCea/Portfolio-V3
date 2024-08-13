@@ -1013,7 +1013,9 @@ article{
       }
   
       .elements .element:nth-child(5) img {
-          height: 50%;
+          height: 100%;
+          height: 100%;
+          object-fit:fill;
       }
       .elements .element:nth-child(6) img {
         width: 100%; /* Ajusta al ancho completo del contenedor */
