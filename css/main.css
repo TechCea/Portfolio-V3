@@ -1357,7 +1357,7 @@ article{
         .elements .element:nth-child(5) img {
             width: 100%; /* Ajusta al ancho completo del contenedor */
             height: 100%; /* Se ajusta automáticamente para mantener la proporción */
-            object-fit: contain; 
+            object-fit: fill; 
         }
         .elements .element:nth-child(6) img {
           width: 100%; /* Ajusta al ancho completo del contenedor */
