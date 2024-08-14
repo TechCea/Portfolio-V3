@@ -1303,6 +1303,7 @@ article{
         }
         .elements {
             width: 100%;
+            aspect-ratio: 3 / 2;
             display: grid;
             margin: 0 auto;
             grid-template-columns: repeat(4, 1fr); /* 4 columnas iguales */
