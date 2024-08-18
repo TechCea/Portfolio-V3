@@ -1100,8 +1100,9 @@ article{
       }
   
       .banner .content p {
-          margin: 0;
+          margin: 0 auto;
           font-size: 17px;
+          font-weight: 500;
           padding: 5px;
           color: var(--white);
       }

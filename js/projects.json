@@ -39,7 +39,7 @@
     {
       "id": 4,
       "name": "TierMaker",
-      "description": "Este proyecto es un Tier Maker interactivo que permite a los usuarios crear sus propias clasificaciones visuales de manera intuitiva. Inspirado en un tutorial de Midudev, implementé y mejoré la funcionalidad de arrastrar y soltar imágenes dentro de diferentes niveles (tiers), añadiendo características personalizadas como la posibilidad de cambiar los colores de los niveles mediante un selector de color dinámico y una opción para guardar la clasificación como una imagen descargable.",
+      "description": "Este proyecto es un Tier Maker interactivo que permite a los usuarios crear sus propias clasificaciones visuales de manera intuitiva. Inspirado en un tutorial de Midudev, implementé y mejoré la funcionalidad de arrastrar y soltar imágenes dentro de diferentes niveles (tiers), añadiendo características personalizadas como la posibilidad de cambiar los colores de los niveles mediante un selector de color dinámico y una opción para guardar la clasificación como una imagen descargable.Este proyecto es un Tier Maker interactivo que permite a los usuarios crear sus propias clasificaciones visuales de manera intuitiva. Inspirado en un tutorial de Midudev, implementé y mejoré la funcionalidad de arrastrar y soltar imágenes dentro de diferentes niveles (tiers), añadiendo características personalizadas como la posibilidad de cambiar los colores de los niveles mediante un selector de color dinámico y una opción para guardar la clasificación como una imagen descargable.",
       "logo": "img/tiermaker2.jpg",
       "technologies": ["HTML5", "CSS3", "JavaScript"],
       "link": "https://techcea.github.io/Tier-Maker/",
