@@ -1051,6 +1051,7 @@ article{
           width: 100%;
           display: flex;
           justify-content: flex-start;
+          align-items: flex-start;
           flex-direction: column;
           gap: 20px;
           opacity: 0;
@@ -1100,7 +1101,7 @@ article{
   
       .banner .content p {
           margin: 0;
-          font-size: 19px;
+          font-size: 17px;
           padding: 5px;
           color: var(--white);
       }
@@ -1207,6 +1208,9 @@ article{
         color: var(--white);
         box-shadow: 0 0 5px var(--otherorange), 0 0 15px var(--otherorange);
     }
+    .no-scroll {
+        overflow: hidden;
+    }    
     
     @media (max-width: 1200px) {
         article {
