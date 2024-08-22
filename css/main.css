@@ -1969,7 +1969,7 @@ input[type="checkbox"] {
     }
     
     .image-section {
-        width: 30%;
+        width: 33%;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -1977,7 +1977,7 @@ input[type="checkbox"] {
     
     .image-section img {
         max-width: 100%;
-        margin-top: 10px;
+        margin-top: 20px;
         border-radius: 12px;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         transform: rotate(3deg);
