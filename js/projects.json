@@ -1,7 +1,7 @@
 [
     {
       "id": 0,
-      "name": "🚧 Aplicación en Desarrollo 🚧",
+      "name": "Pokemon-RPG",
       "description": "Esta aplicación está en proceso de construcción. Algunas funcionalidades pueden no estar disponibles o aún en fase de pruebas. ¡Gracias por tu comprensión y paciencia!",
       "logo": "img/movildes.gif",
       "technologies": ["WordPress", "HTML5", "CSS3", "Photoshop", "JavaScript","Figma"],
