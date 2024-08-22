@@ -1955,8 +1955,8 @@ input[type="checkbox"] {
     }
     
     .text-section p {
-        color: var(--white);
-        margin-bottom: 15px;
+        color: var(--textgray);
+        margin-bottom: 10px;
     }
     
     .text-section strong {
@@ -1977,6 +1977,7 @@ input[type="checkbox"] {
     
     .image-section img {
         max-width: 100%;
+        margin-top: 10px;
         border-radius: 12px;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         transform: rotate(3deg);
