@@ -540,6 +540,7 @@ header {
     color: var(--orange);
 }
 .home-content p{
+    width: 95%;
     padding: 5px;
     max-width: 45ch;
     line-height: 1.5;
@@ -1976,7 +1977,7 @@ input[type="checkbox"] {
     
     .image-section img {
         max-width: 100%;
-        border-radius: 10px;
+        border-radius: 12px;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         transform: rotate(3deg);
     }
