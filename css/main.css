@@ -1212,7 +1212,14 @@ article{
     }
     .no-scroll {
         overflow: hidden;
-    }    
+    } 
+    
+    .banner-custom-2 .content p {
+        font-size: 1.1rem;
+        line-height: 1.4;
+        font-weight: bold;
+        color: var(--black); /* Cambia según tu necesidad */
+    }
     
     @media (max-width: 1200px) {
         article {

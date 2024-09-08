@@ -199,6 +199,8 @@ fetch('./js/projects.json')
                 let banner = document.createElement("div");
                 if (parseInt(e.getAttribute("dataID")) === 1) {
                     banner.classList.add("banner-custom");
+                } else if (parseInt(e.getAttribute("dataID")) === 0) {  // Cambia '2' por el ID que desees
+                    banner.classList.add("banner-custom-2");
                 }
                 let width = e.offsetWidth;
                 let height = e.offsetHeight;
