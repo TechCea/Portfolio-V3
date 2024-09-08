@@ -3,7 +3,7 @@
       "id": 0,
       "name": "Pokemon-RPG",
       "description": "Esta aplicación está en proceso de construcción. Algunas funcionalidades pueden no estar disponibles o aún en fase de pruebas. ¡Gracias por tu comprensión y paciencia!",
-      "logo": "img/pokemonRPG.gif",
+      "logo": "img/poke.gif",
       "technologies": ["WordPress", "HTML5", "CSS3", "Photoshop", "JavaScript","Figma"],
       "link": "https://techcea.github.io/Pokemon-RPG/",
       "github": "https://github.com/TechCea/Pokemon-RPG"
