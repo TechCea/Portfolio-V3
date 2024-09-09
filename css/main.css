@@ -1213,7 +1213,10 @@ article{
     .no-scroll {
         overflow: hidden;
     } 
-    
+    .banner-custom-2::before {
+        background-color: rgba(0, 0, 0, 1); /* Ajusta los valores para cambiar la opacidad */
+        z-index: 1;
+    }
     .banner-custom-2 .content p {
         font-size: 1.1rem;
         line-height: 1.4;
