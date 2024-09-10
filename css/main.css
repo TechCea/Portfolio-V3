@@ -1213,12 +1213,18 @@ article{
     .no-scroll {
         overflow: hidden;
     } 
+    .banner-custom-2 .content h3{
+        color: transparent;
+        z-index: 1;
+    } 
     
     .banner-custom-2 .content p {
         font-size: 1.1rem;
-        line-height: 1.4;
-        font-weight: bold;
-        color: var(--black); /* Cambia según tu necesidad */
+        margin-top: 10px;
+        line-height: 1.6;
+        font-weight: 900;
+        color: #000; /* Cambia según tu necesidad */
+        z-index: 1;
     }
     
     @media (max-width: 1200px) {

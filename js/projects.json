@@ -1,11 +1,11 @@
 [
     {
       "id": 0,
-      "name": "Pokemon-RPG",
-      "description": "Esta aplicación está en proceso de construcción. Algunas funcionalidades pueden no estar disponibles o aún en fase de pruebas. ¡Gracias por tu comprensión y paciencia!",
+      "name": ".",
+      "description": "Pokémon Game es un proyecto inspirado en el video ´Pizza Legends´ de Crew Conley. Es un pequeño juego de Pokémon que recrea la esencia de los clásicos juegos de Pokémon, similar a Pokémon Platino. Está desarrollado utilizando HTML, CSS y JavaScript, con una estética de arte pixelado creada en LibreSprite. En este juego, los jugadores pueden explorar un mundo virtual y participar en batallas de Pokémon, todo dentro de un entorno web. Es una experiencia nostálgica para los fans de la serie, combinando elementos clásicos con un diseño y desarrollo moderno.",
       "logo": "img/poke.gif",
       "backgroundImage": "img/poke.gif",
-      "technologies": ["WordPress", "HTML5", "CSS3", "Photoshop", "JavaScript","Figma"],
+      "technologies": ["HTML5", "CSS3", "JavaScript","LibreSprite"], 
       "link": "https://techcea.github.io/Pokemon-RPG/",
       "github": "https://github.com/TechCea/Pokemon-RPG"
     },
