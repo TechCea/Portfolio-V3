@@ -1222,8 +1222,14 @@ article{
         font-size: 1.1rem;
         margin-top: 10px;
         line-height: 1.6;
-        font-weight: 900;
-        color: #000; /* Cambia según tu necesidad */
+        font-weight: 700;
+        color: #000; 
+        background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+        backdrop-filter: blur(20px);
+        -webkit-backdrop-filter: blur(10px);
+        border-radius: 10px;
+        border:4px solid rgba(255, 255, 255, 0.18);
+        box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.37);
         z-index: 1;
     }
     
