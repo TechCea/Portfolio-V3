@@ -357,3 +357,4 @@ document.querySelectorAll('.acordion li .content-2').forEach(content => {
         event.stopPropagation(); // Evita que el click cierre el acordeón
     });
 });
+
