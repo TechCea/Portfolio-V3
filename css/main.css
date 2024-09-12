@@ -189,6 +189,7 @@ header {
   margin: 0 10px; /* Ajusta el espacio a los lados de la línea */
 }
 
+
 @keyframes SlideRight {
     0%{
         transform: translateX(-100px);
